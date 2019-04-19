@@ -6,6 +6,7 @@
 
 #load tidyverse, ggplot2 lib eveytime R studio session has started
 library(tidyverse)
+
 library(ggplot2)
 
 ggplot2::ggplot() 
