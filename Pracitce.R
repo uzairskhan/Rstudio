@@ -1,3 +1,10 @@
+# select block of code to commnet and Press - Ctrl+Shift+C
+# 1 Downloading/importing data in R 
+# 2 Data visualisation, ggplot2 etc
+# 3 Data transformation
+# 4 Exploratory analysis
+
+#load tidyverse, ggplot2 lib eveytime R studio session has started
 library(tidyverse)
 library(ggplot2)
 
