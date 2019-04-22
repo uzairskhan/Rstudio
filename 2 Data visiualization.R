@@ -98,7 +98,6 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy))+ geom_point(mapping = aes(
 # <GEOM_FUNCTION>(mapping = aes(<MAPPINGS>),stat = <STAT>, position = <POSITION>) +<COORDINATE_FUNCTION> +<FACET_FUNCTION>"
 
 
-
 diamonds
 ggplot(data = diamonds) + geom_bar(mapping = aes(cut))
 ggplot(data = diamonds) + stat_count(mapping = aes(cut))
