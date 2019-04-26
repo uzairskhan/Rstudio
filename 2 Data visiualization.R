@@ -41,7 +41,8 @@ ggplot2::ggplot()
 #ggplot () function 		this creates empty graph
 ggplot2::mpg 
 mpg
-
+#to open mpg in outside table use View(mpg)
+View(mpg)
 ggplot(data = mgp)
 # # geom 	geometric object 		like points, smooth line, bar etc		
 # geom_point	function 	creates a scatterplot, add layers of points to graph like x and y axis							
@@ -174,5 +175,6 @@ bar =ggplot(data = diamonds) + geom_bar(mapping = aes(x = cut, fill = cut), show
 bar
 #bar with coord_flip() and coord_polar()
 bar + coord_flip()
+
 bar + coord_polar()
 
